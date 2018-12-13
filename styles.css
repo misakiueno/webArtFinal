@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#body {
+  background-color: #FFFAFA;
+  animation: flux 8s alternate-reverse infinite;
+}
+
+@keyframes flux {
+  0% { background-color: #FFF0F5;}
+  100% { background-color: #E0FFFF;}
+}
+
+#about {
+  font-size: 2em;
+  margin-left: 10px;
+}
+
+.about {
+  margin-left: 10vw;
+  margin-right: 50vw;
+  margin-top: 10vh;
+}
+
+body {
+  background-color: #FFFAFA;
+  font-family: "Rubik", sans-serif;
+  color: #708090;
+
+}
+
+.about2 {
+  margin-left: 10vw;
+  margin-right: 50vw;
+}
+
+.copyright {
+  margin-left: 10vw;
+  margin-right: 50vw;
+  margin-top: 20vh;
+}
+
+#title {
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.home {
+  text-align: center;
+  font-size: 1em;
+  margin-left: 10px;
+  position: relative;
+  -webkit-animation: bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%       { bottom: -10px; }
+  25%, 75% { bottom: -15px; }
+  50%      { bottom: -20px; }
+  100%     { bottom: -10px; }
+}
+
+.castle {
+  position: relative;
+  font-size: 4em;
+  animation: castle 10s ease-in-out infinite
+  alternate-reverse;
+}
+
+@keyframes castle {
+  0%    { transform: translate(0, 0); }
+
+  33%   { transform: translate(100%, 100%); }
+
+  66%   { transform: translate(50%, 70%)
+          rotate(45deg) ; }
+
+  100%  { transform: translate(25%, 25%)
+          /* rotate(90deg) */;}
+}
+
+.onigiri {
+  animation: onigiri 25s infinite alternate-reverse ease-in-out;
+  font-size: 4em;
+}
+
+@keyframes onigiri {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(720deg); }
+}
+
+.postoffice {
+  text-align: center;
+  animation: yuubin 10s infinite ;
+  font-size: 4em;
+}
+
+@keyframes yuubin {
+  0% { transform: translate(10%, 50%); }
+
+  33% { transform: translate(50%, 75%)
+        rotate(120deg); }
+}
+
+.dolls {
+  position: relative;
+  text-align: right;
+  font-size: 4em;
+  animation: dolls 20s infinite ;
+}
+
+@keyframes dolls {
+  0% { transform: translate(0, 0) ; }
+
+  25% { transform: translate(-200px, 0px); }
+
+  50% { transform: translate(-200px, -200px); }
+
+  75% { transform: translate(0px, -200px); }
+
+  100% { transform: translate(0px, 0px); }
+}
+
+.koko {
+  font-size: 4em;
+  animation: koko 40s infinite;
+}
+
+@keyframes koko {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(720deg); }
+}
+
+.japan {
+  font-size: 4em;
+  animation: japan 5s infinite alternate-reverse;
+}
+
+@keyframes japan {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(-50deg); }
+}
+
+.wakaba {
+  font-size: 4em;
+  animation: wakaba 2s infinite alternate-reverse;
+}
+
+@keyframes wakaba {
+  0%    { transform: translate(0, 0); }
+
+  33%   { transform: translate(100%, 100%); }
+
+  66%   { transform: translate(50%, 70%)
+          rotate(200deg); }
+
+  100%  { transform: translate(25%, 25%)
+          rotate(90deg); }
+}
+
+.whiteflower {
+  font-size: 4em;
+  animation: whiteflower 7s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes whiteflower {
+  0% { transform: translate(0, 0); }
+
+  33% { transform: translate(50%, 1px)
+        rotate(10deg); }
+
+  66% { transform: translate(250px, 50%)
+        rotate(60deg); }
+
+  100% { transform: translate(100%, 0); }
+}
+
+.yuryo {
+  font-size: 4em;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  animation: yuryo 1s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes yuryo {
+  0% { transform: translate(0,0); }
+
+  100% { transform: translate(100%, 0);}
+}
+
+.lovehotel {
+  font-size: 4em;
+  text-align: center;
+  animation: lovehotel 2s infinite alternate-reverse;
+}
+
+@keyframes lovehotel {
+  0% { transform: rotate(540deg);}
+}
+
+.kin {
+  font-size: 4em;
+  text-align: right;
+  animation: kin 2s infinite alternate-reverse;
+}
+
+@keyframes kin {
+  0% { transform: rotate(-50deg); }
+  100% { transform: rotate(0); }
+}
+
+
+.hyakuten {
+  font-size: 4em;
+  margin-left: 30vw;
+  animation: hyakuten 0.7s infinite;
+}
+
+@keyframes hyakuten {
+  0%       { bottom: 10px; }
+  25%, 75% { bottom: 15px; }
+  50%      { bottom: 20px; }
+  100%     { bottom: 0; }
+}
+
+.shiba {
+  font-size: 4em;
+  animation: shiba 25s infinite;
+}
+
+@keyframes shiba {
+  0% { transform: translate(0, 0); }
+
+  33% { transform: translate(50%, 0)
+        rotate(90deg); }
+
+  66% { transform: translate(0, -10%); }
+
+  100% { transform: translate(); }
+}
+
+.bento {
+  font-size: 4em;
+  animation: bento 6s infinite ease-in-out;
+}
+
+@keyframes bento {
+  0% { transform: translate(0, 0); }
+
+  25% { transform: translate(50px, 0); }
+
+  50% { transform: translate(50px, -1200px); }
+
+  75% { transform: translate(50px, 0); }
+
+  100% { transform: translate(0, 0); }
+}
+
+.ricecracker {
+  font-size: 4em;
+  margin-left: 3vw;
+  animation: senbei 3s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes senbei {
+  0% { transform: translate(0,0); }
+
+  33% { transform: translate(650px, -50px)
+        rotate(50deg);}
+
+  66% { transform: translate(650px, 50px)
+        rotate(20deg); }
+
+  100% { transform: translate(250px, -50px); }
+}
+
+.oden {
+  font-size: 4em;
+  animation: oden 5s infinite alternate-reverse;
+}
+
+@keyframes oden {
+  0% { transform: translate(0, 0); }
+
+  33% { transform: translate(33%, 33%)
+        rotate(12deg); }
+
+  66% { transform: translate(66%, 66%)
+        rotate(40deg); }
+
+  100% { transform: translate(100%, 100%); }
+}
+
+.naruto {
+  font-size: 4em;
+  animation: naruto 5s infinite alternate-reverse;
+}
+
+@keyframes naruto {
+  0% { transform: translate(0, 0) ; }
+
+  25% { transform: translate(500px, 0px); }
+
+  50% { transform: translate(500px, -200px); }
+
+  75% { transform: translate(0px, 200px); }
+
+  100% { transform: translate(0px, 0px); }
+}
+
+
+.dango {
+  font-size: 4em;
+  text-align: center;
+  animation: dango 1s infinite;
+}
+
+@keyframes dango {
+  0% { transform: rotate(360deg);}
+}
+
+.sake {
+  font-size: 4em;
+  margin-left: 15vw;
+  animation: sake 7s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes sake {
+  0% { transform: rotate(30deg);}
+}
+
+.fuji {
+  font-size: 4em;
+  margin-left: 70vw;
+  animation: fuji 2s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes fuji {
+  0% { transform: translate(50px, -50px); }
+
+  25% { transform: translate(-50px, -50px); }
+
+  50% { transform: translate(50px, 50px); }
+
+  75% { transform: translate(-50px, 50px);}
+
+  100% { transform: translate(0, 0); }
+}
+
+.tokyotower {
+  font-size: 4em;
+  animation: tokyotower 8s infinite;
+  text-align: center;
+}
+
+@keyframes tokyotower {
+  0% { transform: translate(0, 0) ; }
+
+  25% { transform: translate(400px, 0px); }
+
+  50% { transform: translate(400px, -700px)
+        rotate(75deg); }
+
+  75% { transform: translate(0px, 400px); }
+
+  100% { transform: translate(0px, 0px); }
+}
+
+.shinto {
+  font-size: 3.5em;
+  margin-left: 10vw;
+  animation: shinto 3s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes shinto {
+  0% { transform: rotate(120deg);}
+
+  50% { transform: translate(0, 100px)
+    rotate(30deg);}
+
+  100% { transform: translate(400px, -100px);}
+}
+
+.onsen {
+  font-size: 4em;
+  text-align: right;
+  margin-right: 5vw;
+  animation: onsen infinite 20s alternate-reverse ease-in-out;
+}
+
+@keyframes onsen {
+  0% { transform: translate(20%, 75%)
+        rotate(120deg); }
+
+  33% { transform: translate(10%, 50%); }
+}
+
+.tanabata {
+  font-size: 4em;
+  animation: tanabata 3s infinite ease-in-out;
+}
+
+@keyframes tanabata {
+  0% { transform: translate(0, 0) ; }
+
+  25% { transform: translate(200px, 0px); }
+
+  50% { transform: translate(200px, 200px); }
+
+  75% { transform: translate(0px, 200px); }
+
+  100% { transform: translate(0px, 0px); }
+}
+
+.shogatsu {
+  font-size: 4em;
+  animation: shogatsu 20s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes shogatsu {
+  0%    { transform: translate(25%, 25%); }
+
+  33%   { transform: translate(50%, 70%)
+          rotate(90deg); }
+
+  66%   { transform: translate(95%, 90%); }
+
+  100%  { transform: translate(0, 0); }
+}
+
+.koinobori {
+  font-size: 4em;
+  text-align: right;
+  animation: koinobori 22s infinite alternate-reverse;
+}
+
+@keyframes koinobori {
+  0% { transform: translate(0,0);}
+
+  100% { transform: translate(-80%, 0)
+        rotate(20deg);}
+}
+
+.fuurin {
+  font-size: 4em;
+  text-align: center;
+  animation: fuurin 4s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes fuurin {
+  0% { transform: translate(-200px, 0); }
+
+  33% { transform: translate(300px, -200px)
+        rotate(-25deg);}
+
+  66% { transform: translate(-300px, -100px); }
+
+  100% { transform: translate(0, 0);}
+}
+
+.kimono {
+  font-size: 4em;
+  text-align: center;
+  animation: kimono 3s infinite alternate-reverse ease-in-out;
+}
+
+@keyframes kimono {
+  0% { transform: translate(0, 0); }
+
+  33% { transform: translate(50px, -700px)
+        rotate(-30deg); }
+
+  66% { transform: translate(-300px, -300px); }
+
+  100% { transform: translate(100px, 10px); }
+}
+
+.sushi {
+  font-size: 4em;
+  animation: sushi 2s infinite alternate-reverse;
+}
+
+@keyframes sushi {
+  0% { transform: rotate(180deg); }
+}
